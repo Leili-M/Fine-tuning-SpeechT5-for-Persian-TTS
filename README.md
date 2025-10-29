@@ -74,12 +74,12 @@ The model converged smoothly, with validation loss stabilizing around **0.54**, 
 ##  Sample Outputs
 
 ###  Fine-Tuned Audio Examples
+
 | ID | Type | Text (Phonetic) | Listen |
 |----|------|------------------|--------|
-| 9 | Validation | **hala do d/lil vojud dare** |  [Audio 1](samples/val_9.wav) 
-| 2 | Validation | **mif/hmi ke m/nzur/m ciye** |  [Audio 2](samples/val_5.wav) 
-| 5 | Validation | **@un xeyli b/d masa; meyde** |  [Audio 3](samples/val_2.wav) 
-
+| 9 | Validation | **hala do d/lil vojud dare** | <audio controls><source src="samples/val_9.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
+| 2 | Validation | **mif/hmi ke m/nzur/m ciye** | <audio controls><source src="samples/val_2.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
+| 5 | Validation | **@un xeyli b/d masa; meyde** | <audio controls><source src="samples/val_5.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
 
 > *Samples exhibit improved fluency, natural prosody, and consistent speaker identity compared to zero-shot baseline.*
 
