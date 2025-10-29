@@ -42,7 +42,7 @@ To enable **multi-speaker Persian text-to-speech (TTS)** by fine-tuning a pretra
 Most speakers contribute fewer than 1,000 utterances, while a few provide up to 7,000 samples — introducing mild class imbalance but valuable voice diversity.
 
 *(See histogram below)*  
-![speaker_distribution](assets/speaker_distribution.png)
+![speaker_distribution](speaker_distribution.png)
 
 ---
 
@@ -92,8 +92,4 @@ The model converged smoothly, with validation loss stabilizing around **0.54**, 
 - **Speaker embeddings** preserved timbre and style across voices.  
 - **HiFi-GAN vocoder** produced clean, natural-sounding audio.  
 - **Reduced training setup** (due to limited GPU) still achieved stable, high-quality synthesis.
-
----
-
-## 🧾 Citation
 
